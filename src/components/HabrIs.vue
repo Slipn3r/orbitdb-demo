@@ -59,9 +59,6 @@ export default {
     createDatabase: async function (orbitdb) {
       try {
         const options = {
-          EXPERIMENTAL: {
-            pubsub: true,
-          },
           accessController: {
             write: ['*']
           }
