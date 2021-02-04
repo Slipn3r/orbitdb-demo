@@ -3,7 +3,6 @@
     <span>Хабр: </span>
     <dropdown :options="options" :selected="active" v-on:updateOption="onSelect"></dropdown>
     <p>Последнее обновление: {{lastUpdated}}</p>
-    <pre>{ value: {{active.name}}, lastUpdated: {{lastUpdated}} }</pre>
   </div>
 </template>
 
