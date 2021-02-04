@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "ipfs": "^0.54.1",
+    "orbit-db": "^0.26.0",
+    "vue": "^2.6.11",
+    "vue-dropdowns": "^1.1.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
